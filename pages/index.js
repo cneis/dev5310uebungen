@@ -56,7 +56,7 @@ export default function Home() {
               <a href="https://www.youtube.com"><AiFillYoutube size={30} /></a>
           </div>
           <div className='relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96'>
-          <Image src={profile_pic}   style={{zIndex:1}}/>
+          <Image src={profile_pic}  alt="profile" style={{zIndex:1}}/>
           </div>
         </section>
 
@@ -70,7 +70,7 @@ export default function Home() {
            {/* card 1*/}
           <div className='lg:flex gap-10 basis-1/3 flex-1'>
             <div className='text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white'>
-              <Image src={design} width={100} height={100}/>
+              <Image src={design} alt="design" width={100} height={100}/>
               <h3 className='text-lg font-medium pt-8 pb-2'>Aufgabe 1 und 5</h3>
               <p className='py-2'>
                 In der Mobilansicht übereinander, in der Desktopansicht nebeneinander.
@@ -89,7 +89,7 @@ export default function Home() {
               {/* card 2*/}
           
             <div className='text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white basis-1/3 flex-1'>
-              <Image src={code} width={100} height={100}/>
+              <Image src={code} alt="code" width={100} height={100}/>
               <h3 className='text-lg font-medium pt-8 pb-2'>Aufgabe 2</h3>
               <p className='py-2'>
                 Header und Footer
@@ -104,7 +104,7 @@ export default function Home() {
               {/* card 3*/}
           
             <div className='text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white basis-1/3 flex-1'>
-              <Image src={consulting} width={100} height={100}/>
+              <Image src={consulting} alt="consulting" width={100} height={100}/>
               <h3 className='text-lg font-medium pt-8 pb-2'>Aufgabe 4</h3>
               <p className='py-2'>
                 Bilderbox mit 4 Bildern, große und kleine
@@ -146,7 +146,7 @@ export default function Home() {
 	  </h3>
 
 	  <p className="mt-4 text-gray-600">
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
 	  </p>
 	</div>
   </div>
