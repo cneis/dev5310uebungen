@@ -6,17 +6,12 @@ import profile_pic from '../public/chris_portrait.svg'
 import design from '../public/design.png'
 import code from '../public/code.png'
 import consulting from '../public/consulting.png'
-import web1 from '../public/web1.png'
-import web2 from '../public/web2.png'
-import web3 from '../public/web3.png'
-import web4 from '../public/web4.png'
-import web5 from '../public/web5.png'
-import web6 from '../public/web6.png'
+
 import web7 from '../public/web7.png'
 import web8 from '../public/web8.jpg'
 import web9 from '../public/web9.png'
 import web10 from '../public/web10.png'
-import auf1 from '../public/aufgabe1_bild.jpg'
+
 import { useState } from 'react'
 
 
